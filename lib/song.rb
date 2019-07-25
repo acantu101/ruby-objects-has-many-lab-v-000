@@ -15,7 +15,7 @@ class Song
 
   def artist_name
   if @artist
-    self.author.name
+    self.artist.name
   else
     @artist
   end
