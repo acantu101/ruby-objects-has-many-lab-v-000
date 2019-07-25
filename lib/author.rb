@@ -21,4 +21,8 @@ class Author
     self.author.name
   end
 
+def count
+  @posts.count
+end
+
 end
