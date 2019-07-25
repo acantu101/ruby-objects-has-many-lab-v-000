@@ -19,5 +19,6 @@ class Post
   else
     @artist
   end
+end
 
 end
