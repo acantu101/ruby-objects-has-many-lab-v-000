@@ -14,7 +14,10 @@ class Post
   end
 
   def author_name
+  if @artist
     self.author.name
+  else
+    @artist
   end
 
 end
