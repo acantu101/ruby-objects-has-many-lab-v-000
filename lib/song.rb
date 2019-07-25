@@ -22,9 +22,7 @@ class Song
 end
 
 def self.song_count
-songs.collect do |song|
-song.count
-end
+@@all.count
 end
 
 end
