@@ -25,5 +25,5 @@ class << self
   def self.song_count
 self.class.count
   end
-
+end
 end
