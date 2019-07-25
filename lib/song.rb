@@ -15,6 +15,7 @@ class Song
 
   def artist_name
     @artist = artist
+    artist.new = artist
     return artist
   end
 
