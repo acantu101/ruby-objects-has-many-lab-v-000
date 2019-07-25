@@ -15,7 +15,6 @@ class Post
 
   def author_name
     self.author.name
-    return author
   end
 
 end
