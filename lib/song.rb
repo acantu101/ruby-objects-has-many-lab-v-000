@@ -21,4 +21,10 @@ class Song
   end
 end
 
+def self.song_count
+songs.collect do |song|
+song.count
+end
+
+
 end
